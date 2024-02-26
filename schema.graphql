@@ -1,0 +1,17 @@
+type User {
+    name: String!
+    handle: String!
+    tweets: [Tweet]
+    verified: Boolean
+}
+
+type Tweet {
+    id: ID!
+    text: String!
+    author: User!
+    mentioned: [User]
+}
+
+type Hashtag {
+    name: String!
+}
