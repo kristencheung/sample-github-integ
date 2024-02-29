@@ -1,6 +1,7 @@
 type User {
     name: String!
     handle: String!
+    tweets: [Tweet]
     verified: Boolean
 }
 
