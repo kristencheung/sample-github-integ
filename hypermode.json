@@ -6,7 +6,7 @@
             "sourceModel": "distilbert/distilbert-base-uncased",
             "provider": "hugging-face",
             "host": "hypermode"
-          }
+        }
     ],
     "embeddingSpecs": [
         {
@@ -23,7 +23,7 @@
         {
             "modelName": "msp-523a8138-76b3-406f-9386-c53aa9b23c44",
             "labels": [
-                "spams",
+                "spam",
                 "not spam"
             ]
         }
