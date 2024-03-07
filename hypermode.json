@@ -18,13 +18,6 @@
             "modelType": "embedding",
             "endpoint": "https://v8ky4au1rd.execute-api.us-east-1.amazonaws.com/dev/embedding",
             "authHeader": "x-api-key"
-        },
-        {
-            "name": "distilbert-base-uncased",
-            "type": "classification",
-            "sourceModel": "distilbert/distilbert-base-uncased",
-            "provider": "hugging-face",
-            "host": "hypermode"
         }
     ],
     "embeddingSpecs": [
