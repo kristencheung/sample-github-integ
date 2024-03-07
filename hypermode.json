@@ -1,23 +1,11 @@
 {
     "modelSpecs": [
         {
-            "name": "msp-523a8138-76b3-406f-9386-c53aa9b23c44",
-            "modelType": "classifier",
-            "endpoint": "https://nerpndlnl6.execute-api.us-east-1.amazonaws.com/dev/classifier",
-            "authHeader": "x-api-key"
-        },
-        {
-            "name": "spam-classification",
-            "modelType": "classifier",
-            "baseModel": "textattack/bert-base-uncased-yelp-polarity",
+            "name": "distilbert-base-uncased",
+            "type": "classification",
+            "sourceModel": "distilbert/distilbert-base-uncased",
             "provider": "hugging-face",
             "host": "hypermode"
-        },
-        {
-            "name": "embedding-spec-1",
-            "modelType": "embedding",
-            "endpoint": "https://v8ky4au1rd.execute-api.us-east-1.amazonaws.com/dev/embedding",
-            "authHeader": "x-api-key"
         }
     ],
     "embeddingSpecs": [
@@ -33,7 +21,7 @@
     ],
     "trainingInstructions": [
         {
-            "modelName": "msp-523a8138-76b3-406f-9386-c53aa9b23c44",
+            "modelName": "distilbert-base-uncased",
             "labels": [
                 "spams",
                 "not spam"
