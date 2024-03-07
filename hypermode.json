@@ -23,7 +23,7 @@
         {
             "modelName": "distilbert-base-uncased",
             "labels": [
-                "spams",
+                "spam",
                 "not spam"
             ]
         }
