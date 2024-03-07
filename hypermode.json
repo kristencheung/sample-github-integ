@@ -15,7 +15,7 @@
             "modelName": "embedding-spec-1",
             "config": {
                 "query": "{ about sector industry }",
-                "template": "{{sector}} company in the {{industry}} industry, {{about}}"
+                "template": "A {{sector}} company in the {{industry}} industry, {{about}}"
             }
         }
     ],
